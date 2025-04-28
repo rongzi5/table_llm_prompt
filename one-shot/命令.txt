@@ -1,0 +1,7 @@
+python qa_one_shot.py \
+    --model /root/autodl-tmp/Qwen2.5-7B-instruct \
+    --input /root/autodl-tmp/A_qwen_/test_lower.jsonl \
+    --batch_size 1 \
+    --max_tokens 4096 \
+    --temperature 0.3 \
+    --output Qwen2.5-7B-instruct_results_one-shot_2.json
